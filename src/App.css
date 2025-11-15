@@ -1,0 +1,59 @@
+.construction-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: var(--color-background);
+}
+
+.construction-card {
+  max-width: 600px;
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+}
+
+.construction-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--color-secondary);
+}
+
+.brand {
+  color: var(--color-primary);
+}
+
+.construction-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--color-secondary);
+}
+
+.construction-text {
+  font-size: 15px;
+  color: #4b5563;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .construction-card {
+    padding: 28px;
+  }
+
+  .construction-title {
+    font-size: 26px;
+  }
+
+  .construction-subtitle {
+    font-size: 16px;
+  }
+
+  .construction-text {
+    font-size: 14px;
+  }
+}
